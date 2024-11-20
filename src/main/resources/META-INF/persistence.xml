@@ -6,7 +6,8 @@
     <persistence-unit transaction-type="RESOURCE_LOCAL" name="world">
 
         <class>pe.edu.i202220936.entity.City</class>
-
+        <class>pe.edu.i202220936.entity.Country</class>
+        <class>pe.edu.i202220936.entity.CountryLanguage</class>
 
     <properties>
 
