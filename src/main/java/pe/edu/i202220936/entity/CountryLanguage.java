@@ -15,7 +15,7 @@ public class CountryLanguage {
     private Integer percentage;
 
     @ManyToOne
-    @JoinColumn(name = "countryCode", referencedColumnName = "code")
+    @JoinColumn(name = "countryCode", insertable = false, updatable = false)
     private Country country;
 
     public CountryLanguage(String countryCode, String isOfficial, String language, Integer percentage) {
